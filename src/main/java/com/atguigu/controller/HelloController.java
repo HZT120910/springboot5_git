@@ -17,7 +17,7 @@ public class HelloController {
 
     @RequestMapping("info2")
     public String developor(){
-        return "hello develepor";
+        return "hello develepor 开发老哥哥写的";
     }
 
     @RequestMapping("info3")
