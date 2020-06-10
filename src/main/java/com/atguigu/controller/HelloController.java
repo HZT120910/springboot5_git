@@ -12,7 +12,7 @@ public class HelloController {
 
     @RequestMapping("info1")
     public String info(){
-        return "hello springboot info 开发老哥写的";
+        return "hello springboot info  项目经理写的";
     }
 
     @RequestMapping("info2")
