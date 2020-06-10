@@ -14,4 +14,9 @@ public class HelloController {
     public String info(){
         return "hello springboot info";
     }
+
+    @RequestMapping("info2")
+    public String developor(){
+        return "hello develepor";
+    }
 }
