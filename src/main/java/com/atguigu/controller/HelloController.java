@@ -19,4 +19,9 @@ public class HelloController {
     public String developor(){
         return "hello develepor";
     }
+
+    @RequestMapping("info3")
+    public String developor01(){
+        return "hello develepor";
+    }
 }
